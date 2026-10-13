@@ -29,14 +29,33 @@ Understanding user retention helps businesses evaluate user engagement, identify
 6. Developed business insights and recommendations.
 
 ## Key Findings
-  Declining User Activity: Cohort analysis shows a gradual decline in user activity over the months following registration. User activity is highest during the registration month, after which some users stop engaging with the product.
-  Promotional vs. Organic Acquisition: The promo_signup_flag filter enables a comparison of retention patterns between users acquired through promotional campaigns and those acquired organically.
-  Long-Term Retention: Promotional campaigns may generate a higher initial influx of users, while organically acquired users may demonstrate more stable long-term retention. This pattern should be validated against the actual cohort retention metrics.
-  
+
+- **Organic Users Show Higher Retention.** Organic users demonstrate stronger retention than promotional users. Weighted M1 retention is approximately **81.2% for organic users**, compared with **55.4% for promotional users**. This suggests that organic users are more likely to remain active in the month following registration.
+
+- **The Retention Gap Widens Over Time.** The difference between acquisition channels becomes more pronounced in later months. Weighted retention is approximately **80.0% vs. 41.3% in M2** and **77.2% vs. 25.5% in M3** for organic and promotional users, respectively. These figures are calculated using only cohorts with available observations for each month.
+
+- **Overall Retention Declines Over Time.** Across all users, weighted retention decreases from approximately **71.2% in M1** to **58.3% in M3**. This highlights the importance of improving early engagement and maintaining user activity after registration.
+
+- **Promotional Users Contribute to Acquisition but Show Lower Retention.** The promotional segment contains 242 users at M0, while the organic segment contains 358. Although promotional campaigns can attract users, their lower observed retention suggests that acquisition volume alone may not indicate long-term value.
+
+- **Cohort Age Matters.** Older cohorts have more months of observed activity than newer cohorts. Comparisons of long-term retention should therefore use only cohorts with data available for the same month offset.
+
 ## Business Recommendations
-  Evaluate Promotional Campaign Effectiveness. Compare not only the number of acquired users but also their long-term retention and engagement to assess the value of promotional campaigns.
-  Investigate Promotional User Churn. Examine whether the product meets the expectations of users acquired through discounts, promotions, and promo codes. Identify potential reasons for declining engagement.
-  Identify Successful Organic Retention Practices. Analyze organic acquisition sources and the behavior of users with higher retention rates to identify opportunities to improve user acquisition and long-term engagement.
+
+1. **Evaluate Acquisition Channel Quality.** Compare promotional and organic users not only by the number of registrations, but also by retention, engagement, and long-term value. Use these metrics to assess the effectiveness of acquisition campaigns.
+
+2. **Improve Promotional User Retention.** Investigate why promotional users have lower observed retention. Consider testing improved onboarding, follow-up communication, and engagement initiatives tailored to users acquired through promotions.
+
+3. **Strengthen Early Engagement.** Analyze user behavior during the first month after registration to identify barriers to continued activity. Test interventions that encourage users to return and experience the product's core value.
+
+4. **Investigate Long-Term Engagement.** Examine the behavior of organic users who remain active over multiple months. Identify patterns that may help improve retention among promotional users, while validating whether these patterns apply to both groups.
+
+5. **Continue Monitoring Cohorts.** Update the cohort analysis as more data becomes available. Compare cohorts over equivalent observation periods to avoid drawing misleading conclusions from incomplete data.
+
+## Conclusion
+
+The cohort analysis reveals a clear difference in retention between organic and promotional users. Organic users show substantially higher retention across the observed months, while promotional users experience a steeper decline in activity. These findings suggest that acquisition strategies should be evaluated based on both the number of users acquired and their ability to remain engaged over time. Further analysis of user behavior, campaign characteristics, and engagement patterns can help identify opportunities to improve retention and acquisition efficiency.
+
 
 ## Project Deliverables
 - SQL queries used for data preparation and analysis.
