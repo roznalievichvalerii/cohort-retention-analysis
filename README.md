@@ -48,3 +48,17 @@ Understanding user retention helps businesses evaluate user engagement, identify
 Valerii Roznalievich
 Aspiring Data Analyst | SQL • PostgreSQL • Google Sheets
 LinkedIn www.linkedin.com/in/valerii-roznalievich-data
+
+## Project Screenshots
+
+### Cohort Analysis Overview
+
+![Cohort Analysis Overview](results/Overview.png)
+
+### Promotional Users
+
+![Promotional Users](results/Promotional%20Users.png)
+
+### Organic Users
+
+![Organic Users](results/Organic%20Users.png)
