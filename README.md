@@ -44,11 +44,11 @@ Understanding user retention helps businesses evaluate user engagement, identify
 - Promotional vs. organic user comparison.
 - Data visualizations and business insights.
 
-## Author
-Valerii Roznalievich
-Aspiring Data Analyst | SQL • PostgreSQL • Google Sheets
-LinkedIn www.linkedin.com/in/valerii-roznalievich-data
+## Project Files
 
+- **Excel Analysis:** [cohort_analysis.xlsx](cohort_analysis.xlsx) — cohort tables, user activity, and retention results.
+- **SQL Queries:** [cohort_analysis.sql](sql/cohort_analysis.sql) — SQL queries used for cohort analysis and retention calculations.
+- **Screenshots:** See the [results](results/) folder for visual examples of the analysis.
 ## Project Screenshots
 
 ### Cohort Analysis Overview
@@ -62,3 +62,8 @@ LinkedIn www.linkedin.com/in/valerii-roznalievich-data
 ### Organic Users
 
 ![Organic Users](results/Organic%20Users.png)
+
+## Author
+Valerii Roznalievich
+Aspiring Data Analyst | SQL • PostgreSQL • Google Sheets
+LinkedIn www.linkedin.com/in/valerii-roznalievich-data
